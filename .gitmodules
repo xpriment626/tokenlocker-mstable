@@ -4,3 +4,6 @@
 [submodule "lib/mStable-contracts"]
 	path = lib/mStable-contracts
 	url = https://github.com/mstable/mStable-contracts
+[submodule "lib/openzeppelin-contracts"]
+	path = lib/openzeppelin-contracts
+	url = https://github.com/Openzeppelin/openzeppelin-contracts
