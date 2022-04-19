@@ -14,6 +14,8 @@ Run `foundryup` to install the latest version
 
 ## Installing Dependencies
 
+Run while in `test/savings/foundry-tests`
+
 ```shell
 forge install
 ```

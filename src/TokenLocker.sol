@@ -103,6 +103,7 @@ contract TokenLocker {
     /***************************************
                     MAIN LOGIC
     ****************************************/
+    
     function deposit(uint256 amount) external nonReentrant {
         // throws a custom error if user has already deposited
         if (depositStatus[msg.sender] == true) revert OneDepositPerLockup();
